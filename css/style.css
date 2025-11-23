@@ -1,0 +1,53 @@
+/* Custom Properties */
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.slp-theme {
+  background-color: #1e1e2f;
+  color: white;
+}
+
+.slp-theme-light {
+  background-color: #f2f2f5;
+  color: #1e1e2f;
+}
+
+.hero {
+  min-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.6)),
+    url(../img/slp-background.jpg);
+  background-size: 100vw;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.link-custom {
+  text-decoration: none;
+  color: white;
+}
+
+.get-started {
+  min-height: 250px;
+}
+
+.btn-custom {
+  max-width: 100px;
+  background-color: #1e1e2f;
+  color: white;
+}
+
+.login {
+  width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.slp-gradient {
+  background: linear-gradient(to top, #1e1e2f, #64646d);
+  color: #f2f2f5;
+}
