@@ -1,9 +1,9 @@
 <?php
 
-$servername = "db";
-$dbuser     = "slpdev";
-$dbpass     = "devplayground";
-$dbname     = "slp_db_dev";
+$servername = "";
+$dbuser     = "";
+$dbpass     = "";
+$dbname     = "";
 
 $conn = new mysqli($servername, $dbuser, $dbpass, $dbname);
 
